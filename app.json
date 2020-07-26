@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "gorilla-base",
+    "description": "Gorilla Base is an online seller assistant that helps the online seller, record their day to day transactions such as order, sales, deliveries and payments.",
     "slug": "gorilla-base",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,14 +14,13 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.blademonkey.gorilla-base"
     },
-    "web": {
-      "favicon": "./assets/favicon.ico"
+    "android": {
+      "package": "com.blademonkey.gorillaBase"
     }
   }
 }
